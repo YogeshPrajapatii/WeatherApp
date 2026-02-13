@@ -58,7 +58,7 @@ fun WeatherScreen(viewModel: WeatherViewModel, navController: NavHostController)
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top) {
             //  Friendly Heading
-            Text(text = "Know Your City Weather 🌤️",
+            Text(text = "Know Your town Weather 🌤️",
                 color = Color.White,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
