@@ -157,6 +157,7 @@ fun WeatherCard(weather: WeatherDto) {
             weather.wind?.let { wind ->
                 Text("Wind: ${wind.speed} m/s, ${wind.deg}°")
             }
+
             weather.weather?.firstOrNull()?.let { condition ->
                 Text("Condition: ${condition.description}")
             }
