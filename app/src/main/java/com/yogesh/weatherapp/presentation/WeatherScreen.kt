@@ -161,6 +161,7 @@ fun WeatherCard(weather: WeatherDto) {
             weather.weather?.firstOrNull()?.let { condition ->
                 Text("Condition: ${condition.description}")
             }
+
         }
     }
 }
