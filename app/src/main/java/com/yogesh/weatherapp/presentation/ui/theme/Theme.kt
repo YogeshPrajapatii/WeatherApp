@@ -50,6 +50,7 @@ fun WeatherAppTheme(
         else -> LightColorScheme
     }
 
+
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
